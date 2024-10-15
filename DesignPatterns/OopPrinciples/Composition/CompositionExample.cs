@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.OopPrinciples.Composition;
 
-public static class Composition
+public static class CompositionExample
 {
     public static void Run()
     {

@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.OopPrinciples.Abstraction;
 
-public static class Abstraction
+public static class AbstractionExample
 {
     public static void Run()
     {

@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.OopPrinciples.Polymorphism;
 
-public static class Polymorphism
+public static class PolymorphismExample
 {
     public static void Run()
     {

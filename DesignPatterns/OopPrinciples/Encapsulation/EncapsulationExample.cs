@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.OopPrinciples.Encapsulation;
 
-public static class Encapsulation
+public static class EncapsulationExample
 {
     public static void Run()
     {

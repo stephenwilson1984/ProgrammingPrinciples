@@ -2,7 +2,7 @@
 
 public class Order(INotificationService notificationService)
 {
-    private readonly INotificationService _notificationService = notificationService;
+    private readonly INotificationService _notificationService = notificationService ?? throw new ArgumentNullException(nameof(notificationService));
 
     public void PlaceOrder()
     {

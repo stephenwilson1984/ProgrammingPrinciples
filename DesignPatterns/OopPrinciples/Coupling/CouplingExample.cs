@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.OopPrinciples.Coupling;
 
-public abstract class Coupling
+public abstract class CouplingExample
 {
     public static void Run()
     {
