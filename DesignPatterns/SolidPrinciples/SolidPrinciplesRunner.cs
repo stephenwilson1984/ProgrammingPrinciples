@@ -1,4 +1,6 @@
-﻿using DesignPatterns.SolidPrinciples.LiskovSubstitutionPrinciple;
+﻿using DesignPatterns.SolidPrinciples.DependencyInversionPrinciple;
+using DesignPatterns.SolidPrinciples.InterfaceSegregationPrinciple;
+using DesignPatterns.SolidPrinciples.LiskovSubstitutionPrinciple;
 using DesignPatterns.SolidPrinciples.OpenClosedPrinciple;
 using DesignPatterns.SolidPrinciples.SingleResponsibility;
 
@@ -37,13 +39,13 @@ public static class SolidPrinciplesRunner
 
         // Interface Segregation Principle
         Console.WriteLine("** Interface Segregation Principle example **");
-        //InterfaceSegregationExample.Run();
+        InterfaceSegregationPrincipleExample.Run();
 
         Console.WriteLine("----------------------------------------");
         Console.WriteLine();
 
         // Dependency Inversion Principle
         Console.WriteLine("** Dependency Inversion Principle example **");
-        //DependencyInversionExample.Run();
+        DependencyInversionPrincipleExample.Run();
     }
 }

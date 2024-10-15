@@ -9,6 +9,9 @@ public static class LiskovSubstitutionPrincipleExample
         // In other words, a subclass should override the methods from the superclass in a way that does not break functionality.
         // The Liskov Substitution Principle is a way to ensure that the inheritance hierarchy is well-designed and that the classes in the hierarchy are used correctly.
 
-
+        var rectangle = new Square();
+        rectangle.Side = 10;
+        Console.WriteLine("Expected Area: 10 x 10 = 100");
+        Console.WriteLine($"Actual Area: {rectangle.Area}");
     }
 }
