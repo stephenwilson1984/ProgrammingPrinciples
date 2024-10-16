@@ -8,7 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="DesignPatterns\" />
+      <Folder Include="DesignPatterns\Creational\PrototypePattern\" />
+      <Folder Include="DesignPatterns\Structural\CompositePattern\" />
     </ItemGroup>
 
 </Project>
